@@ -1,0 +1,141 @@
+
+   
+@font-face{
+    font-family:"caladea";
+    src: url('fontes/Caladea-Bold.ttf')format("woff2");
+}
+header {
+    background-image: url("asset/css/img/champ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+h1{
+    font-family:"caladea";
+    padding-bottom: 30px;
+    
+}
+
+.Mark1, .Mark2
+{
+    color:#d63c37;
+}
+.Mark2
+{
+    text-decoration: underline;
+}
+p
+{
+    font-family: "aileron_regular_macroman";
+    font-size: 18pt;
+    
+}
+
+section
+{
+    padding-top: 60px url("asset/css/img/libertystatue.jpg");
+}
+
+
+.p2 span 
+{
+    color: #d63c37;
+    font-family:"aileron_regular_macroman" ;
+   
+   
+}
+
+.p2
+{
+    line-height: 2rem;
+    font-size: 18pt;
+    padding-bottom: 3rem;
+}
+
+h2.title2{
+
+    font-family: "caladea";
+    font-weight: bold;
+    font-size: 36pt;
+   padding-top: 270px;
+   padding-bottom: 70px;
+}
+p.entete
+{
+    padding-bottom: 3rem;
+}
+p.icone
+{
+    color: #d63c37;
+    position: relative;
+    right: -3rem;
+    font-weight: bold;
+}
+
+footer
+{
+    background-color: #d63c37;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+h2.title3
+{
+    font-family: "caladea";
+    padding-top: 25%;
+    padding-bottom: 80px;
+}
+.p3
+{
+    color: white;
+    font-family:"aileron_regular_macroman" ;
+    font-size: 24pt;
+}
+.p3-bold
+{
+    font-weight: bold;
+    font-size: 24pt;
+    font-family:"aileron_regular_macroman" ;
+}
+#burger
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+
+}
+#burger:hover
+{
+    cursor: pointer;
+}
+.burger-part
+{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    height: 5px;
+    background: black;
+    width: 30px;
+}
+nav
+{
+    position: fixed;
+    top: 3%;
+    right: 1%;
+}
+nav li
+{
+    list-style: none;
+}
+ul li a
+{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: chocolate;
+}
+ul
+{
+    padding: 0;
+}
